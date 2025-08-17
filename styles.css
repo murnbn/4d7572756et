@@ -1,0 +1,239 @@
+html, body {
+  margin: 0;
+  padding: 10vh;
+  overflow: hidden; 
+  height: 100%;     
+}
+
+body {
+  margin: 0;
+  background: url('background.gif') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.clickable {
+  cursor: pointer;
+  text-shadow: 2px 2px #000;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background: hotpink;
+  border: 4px solid #000;
+  padding: 10px 20px;
+  margin: 10px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 2px 2px #000;
+}
+
+button:hover {
+  background: #ff9900;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  height: 50vh;           
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 20px 0;
+}
+
+#dc{
+  position: absolute;
+  top: 400px; 
+  right: 1060px; 
+  width: 200px;  
+  height: auto;
+  pointer-events: none; 
+  animation: bounce 1s infinite alternate; 
+}
+
+#goose{
+  position: absolute;
+  top: 400px;
+  right: 120px;
+  width: 200px; 
+  height: auto;
+  pointer-events: none; 
+  animation: bounce 1s infinite alternate; }
+
+#guy{
+  position: fixed;
+  top: 200px; 
+  right: 500px; 
+  width: 50px;  
+  height: auto;
+  pointer-events: none; 
+  animation: bounce 1s infinite alternate; 
+}
+
+.gif {
+  position: fixed;       
+  width: 15vw;
+  height: auto;
+  pointer-events: none;
+  max-width: 120px;
+}
+
+.cool0 { top: 50px; left: 30%; animation: rotateAndFloat 3s linear infinite; }
+.cool1 { top: 120px; left: 55%; animation: rotateAndFloat 4s linear infinite; }
+.cool2 { top: 200px; left: 80%; animation: rotateAndFloat 3.5s linear infinite; }
+.cool3 { top: 150px; left: 20%; animation: rotateAndFloat 5s linear infinite; }
+.cool4 { top: 70px; left: 8%; animation: rotateAndFloat 3.2s linear infinite; }
+.cool5 { top: 150px; left: 6%; animation: rotateAndFloat 4.3s linear infinite; }
+.cool6 { top: 250px; left: 70%; animation: rotateAndFloat 3.7s linear infinite; }
+.cool7 { top: 50px; left: 2%; animation: rotateAndFloat 4.1s linear infinite; }
+.cool8 { top: 100px; left: 80%; animation: rotateAndFloat 4.1s linear infinite; }
+
+.dc       { top: 600px; right: 70%; width: 200px; }
+.goose    { top: 500px; right: 10%; width: 200px; }
+.guy      { top: 200px; right: 36%; width: 150px;  }
+
+
+.coolMain { top: 50px; left: 100px; width: 300px; animation: float 2s ease-in-out infinite alternate, moveRight 5s linear infinite; }
+
+
+@keyframes rotateAndFloat {
+  0%   { transform: rotate(0deg) translateY(0); }
+  100% { transform: rotate(360deg) translateY(-10px); }
+}
+
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+@keyframes moveRight {
+  0%   { left: -300px; }
+  100% { left: calc(100% - 300px); } 
+
+}
+#goofydog {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: auto;
+}
+#ahh {
+  position: fixed;
+  top: 50px;
+  left: 60%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: auto;
+}
+#broken {
+  position: fixed;
+  top: 80px;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: auto;
+}
+
+#ask
+#name-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#name-label {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+#username {
+  width: 70%;
+  padding: 10px;
+  font-size: 10px;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+  background-color: #333;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  box-shadow: 3px 3px 0 #000;
+  transition: all 0.2s;
+  max-width: 250px;
+}
+
+#username::placeholder {
+  color: #aaa;
+}
+
+#username:focus {
+  border-color: rgb(79, 79, 212);
+  box-shadow: 4px 4px 0 #000;
+}
+
+#submit-name {
+  margin-top: 10px;
+  padding: 6px 12px;
+  font-size: 10px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 0 #000;
+  transition: all 0.2s;
+}
+
+#submit-name:hover {
+  background-color: hotpink;
+  color: #000;
+  box-shadow: 4px 4px 0 #000;
+}
+
+
+.footer {
+  position: fixed;       
+  bottom: 10px;         
+  left: 50%;             
+  transform: translateX(-50%); 
+  font-size: 8px;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  h1, h2 {
+    font-size: 14px;
+  }
+  button {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+  .gif {
+    width: 50vw;
+    max-width: 80px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
