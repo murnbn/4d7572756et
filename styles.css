@@ -74,8 +74,8 @@ h1, h2 {
 
 #guy{
   position: fixed;
-  top: 200px; 
-  right: 500px; 
+  top: 100px; 
+  right: 200px; 
   width: 50px;  
   height: auto;
   pointer-events: none; 
@@ -102,7 +102,7 @@ h1, h2 {
 
 .dc       { top: 600px; right: 70%; width: 200px; }
 .goose    { top: 500px; right: 10%; width: 200px; }
-.guy      { top: 200px; right: 36%; width: 150px;  }
+.guy      { top: 200px; right: 20%; width: 150px;  }
 
 
 .coolMain { top: 50px; left: 100px; width: 300px; animation: float 2s ease-in-out infinite alternate, moveRight 5s linear infinite; }
