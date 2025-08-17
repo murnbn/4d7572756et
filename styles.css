@@ -95,8 +95,8 @@ h1, h2 {
 .cool2 { top: 130px; left: 80%; animation: rotateAndFloat 3.5s linear infinite; }
 .cool3 { top: 150px; left: 20%; animation: rotateAndFloat 5s linear infinite; }
 .cool4 { top: 70px; left: 8%; animation: rotateAndFloat 3.2s linear infinite; }
-.cool5 { top: 150px; left: 6%; animation: rotateAndFloat 4.3s linear infinite; }
-.cool6 { top: 200px; left: 70%; animation: rotateAndFloat 3.7s linear infinite; }
+.cool5 { top: 100px; left: 6%; animation: rotateAndFloat 4.3s linear infinite; }
+.cool6 { top: 90px; left: 70%; animation: rotateAndFloat 3.7s linear infinite; }
 .cool7 { top: 50px; left: 2%; animation: rotateAndFloat 4.1s linear infinite; }
 .cool8 { top: 100px; left: 80%; animation: rotateAndFloat 4.1s linear infinite; }
 
