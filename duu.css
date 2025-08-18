@@ -214,7 +214,7 @@ footer {
   }
   #player-container {
   position: fixed;
-  top: 50%;
+  top: 55%;
   max-width: 90%;
   margin: 20px auto;
   margin-top: 20px;
@@ -235,7 +235,7 @@ footer {
 }
 .user-music-box {
     position: fixed;
-    top: 87%;
+    top: 92%;
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
